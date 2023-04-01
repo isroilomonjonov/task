@@ -33,7 +33,6 @@ function Login() {
     setTypeState(!typeState);
   };
   const login = async (data) => {
-	console.log(data);
     try {
       localStorage.setItem("subdomain", data._subdomain);
       const res = await http({
@@ -49,8 +48,7 @@ function Login() {
       });
       navigate("/");
     } catch (error) {
-      console.log(error);
-      toast.error(error.response?.data?.message);
+      toast.error('Login yoki parol xato');
     }
   };
 
