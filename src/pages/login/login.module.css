@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  margin: 0 auto;
+}
+
+.left-page {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f1;
+  color: #ffffff;
+}
+
+.login-icon {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  padding: 27px;
+  border-radius: 0px;
+}
+
+.left-page h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.right-page {
+  width: 60%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-page-main-content {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 460px;
+
+}
+
+label {
+	display: flex;
+}
+
+.right-page-main-content h1 {
+	max-width: 212px;
+	max-height: 39px;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 39px;
+	color: #0e1427;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+ .right-page-main-content h1 {
+ 	max-width: 212px;
+ 	max-height: 39px;
+ 	font-weight: 500;
+ 	font-size: 28px;
+ 	line-height: 39px;
+ 	color: #0e1427;
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+
+label{
+	display: flex;
+}
+form {
+  width: 100%;
+}
+
+.right-page-main-content input {
+	width: 100%;
+	margin-top:.5rem;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 20px;
+	background: #FAFAFA;
+	border: 1px solid #D9DCDD;
+	border-radius: 4px;
+	outline: none;
+	font-weight: 400;
+	font-size: 18px;
+/* line-height: 24px; */
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.spandiv {
+  display: flex;
+  justify-content: end;
+}
+
+.input-name {
+  max-width: 85px;
+  max-height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b3c0ea;
+}
+
+.changeType {
+	position: absolute;
+	cursor: pointer;
+	transform: translate(-20%, 70%);
+	display: inline-block;
+}
+.buttonLogin{
+	width: 100%;
+	padding: 20px 30px;
+	background: #6c65f8;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	color: white;
+}
+
+@media (max-width: 75rem) {
+	.container {
+        display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.left-page h1 {
+		font-size: 22px;
+	}
+	.left-page {
+		display: none;
+		width: 100%;
+		height: 100%;
+	}
+	.right-page {
+		display: flex;
+		min-width: 50%;
+		height: 100%;
+		margin: 100px auto;
+	}
+}
