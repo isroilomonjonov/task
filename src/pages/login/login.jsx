@@ -48,7 +48,7 @@ function Login() {
       });
       navigate("/");
     } catch (error) {
-      toast.error('Login yoki parol xato');
+      toast.error('Malumot xato kititilgan');
     }
   };
 
